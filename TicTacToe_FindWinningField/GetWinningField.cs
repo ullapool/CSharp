@@ -57,6 +57,10 @@ public class WinAnalizer
 
 	public static void Main()
 	{
-		Console.WriteLine(Program.BlockPlayer(2, 8));
+		int field1 = 0;
+		int field2 = 1;
+
+		int winningField = Program.BlockPlayer(field1, field2);
+		Console.WriteLine("The winning field number is " + winningField);
 	}
 }
