@@ -59,7 +59,7 @@ public class WinAnalizer
 	{
 		int field1 = 0;
 		int field2 = 1;
-
+		//Test
 		int winningField = Program.BlockPlayer(field1, field2);
 		Console.WriteLine("The winning field number is " + winningField);
 	}
